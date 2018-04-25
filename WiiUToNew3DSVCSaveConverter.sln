@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiiUToNew3DSVCSaveConverter", "WiiUToNew3DSVCSaveConverter\WiiUToNew3DSVCSaveConverter.csproj", "{D21CC509-2109-4602-9EAE-94849C459B7A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiiUToNew3DSVCSaveConverter.Common", "WiiUToNew3DSVCSaveConverter.Common\WiiUToNew3DSVCSaveConverter.Common.csproj", "{061BCC83-ABF0-4B46-94D9-74013854118F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WiiUToNew3DSVCSaveConverter.Tests", "WiiUToNew3DSVCSaveConverter.Tests\WiiUToNew3DSVCSaveConverter.Tests.csproj", "{AAFFBBA5-8113-4C6F-875A-8F8C4460520E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{D21CC509-2109-4602-9EAE-94849C459B7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D21CC509-2109-4602-9EAE-94849C459B7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D21CC509-2109-4602-9EAE-94849C459B7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{061BCC83-ABF0-4B46-94D9-74013854118F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{061BCC83-ABF0-4B46-94D9-74013854118F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{061BCC83-ABF0-4B46-94D9-74013854118F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{061BCC83-ABF0-4B46-94D9-74013854118F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAFFBBA5-8113-4C6F-875A-8F8C4460520E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAFFBBA5-8113-4C6F-875A-8F8C4460520E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAFFBBA5-8113-4C6F-875A-8F8C4460520E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAFFBBA5-8113-4C6F-875A-8F8C4460520E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

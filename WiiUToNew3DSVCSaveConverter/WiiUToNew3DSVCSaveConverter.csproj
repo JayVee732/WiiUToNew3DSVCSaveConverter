@@ -93,5 +93,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WiiUToNew3DSVCSaveConverter.Common\WiiUToNew3DSVCSaveConverter.Common.csproj">
+      <Project>{061bcc83-abf0-4b46-94d9-74013854118f}</Project>
+      <Name>WiiUToNew3DSVCSaveConverter.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
